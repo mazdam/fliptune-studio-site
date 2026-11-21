@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlipTune Studio サポート / Support</title>
+<style>
+  :root { --bg:#FCF3D9; --ink:#252D32; --muted:#5C5440; --lcd:#9DAC65; --accent:#3A6488; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+    line-height:1.8; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { background: var(--lcd); border: 3px solid var(--ink); border-radius: 12px;
+    padding: 16px 20px; margin-bottom: 32px; }
+  header h1 { margin:0; font-size: 1.4rem; }
+  header p { margin: 4px 0 0; font-size: .9rem; }
+  h2 { font-size: 1.1rem; border-bottom: 2px solid var(--ink); padding-bottom: 4px; margin-top: 40px; }
+  dt { font-weight: 700; margin-top: 20px; }
+  dd { margin: 4px 0 0; }
+  .contact { background:#fff8e6; border:2px solid var(--ink); border-radius: 10px; padding: 12px 16px; }
+  a { color: var(--accent); }
+  hr { border:0; border-top: 1px dashed var(--muted); margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>FlipTune Studio</h1>
+    <p>サポート / Support</p>
+  </header>
+
+  <section lang="ja">
+    <h2>お問い合わせ</h2>
+    <p class="contact">不具合のご報告やご質問は、こちらまでメールでお送りください。<br><a href="mailto:miyabiz12+fliptune@gmail.com">miyabiz12+fliptune@gmail.com</a></p>
+    <p>お使いの機種、iOS のバージョン、起きたことをお書き添えいただけると、調べるのが早くなります。</p>
+
+    <h2>よくある質問</h2>
+    <dl>
+      <dt>音が鳴りません</dt>
+      <dd>本体の音量が上がっているか、Bluetooth のイヤホンやスピーカーに音が送られていないかをご確認ください。それでも鳴らない場合は、アプリを一度終了してから開き直してください。</dd>
+
+      <dt>音符はどうやって入れますか？</dt>
+      <dd>テンキーの 1〜7 がドレミファソラシ、0 が休符です。十字キーでカーソルを動かし、真ん中のボタンで再生します。</dd>
+
+      <dt>再生する範囲を選べますか？</dt>
+      <dd>再生ボタンを長押しすると、「曲全体」「このトラックだけ」「表示中の範囲だけ」から選べます。</dd>
+
+      <dt>和音は入力できますか？</dt>
+      <dd>1 つのトラックで同時に鳴らせるのは 1 音です。和音はトラックを分けて重ねてください（最大 16 トラック）。</dd>
+
+      <dt>作った曲を他のアプリで使えますか？</dt>
+      <dd>メニューの「Export MIDI」で MIDI ファイル（.mid）として書き出せます。</dd>
+
+      <dt>MIDI ファイルを読み込むと音が減りました</dt>
+      <dd>各トラック 1 音にまとめるため、同時に鳴る音は一番高い音だけを残しています。</dd>
+
+      <dt>曲はどこに保存されますか？</dt>
+      <dd>お使いの端末の中だけです。アプリを削除すると曲も消えるので、残したい曲は MIDI で書き出しておいてください。</dd>
+    </dl>
+  </section>
+
+  <hr>
+
+  <section lang="en">
+    <h2>Contact</h2>
+    <p class="contact">For bug reports or questions, please email:<br><a href="mailto:miyabiz12+fliptune@gmail.com">miyabiz12+fliptune@gmail.com</a></p>
+    <p>Including your device model, iOS version and what happened helps us look into it faster.</p>
+
+    <h2>FAQ</h2>
+    <dl>
+      <dt>I can't hear any sound.</dt>
+      <dd>Check that the volume is turned up and that sound is not going to Bluetooth headphones or a speaker. If it still doesn't play, close the app completely and open it again.</dd>
+
+      <dt>How do I enter notes?</dt>
+      <dd>Keys 1-7 enter Do, Re, Mi, Fa, Sol, La, Ti, and 0 enters a rest. Move the cursor with the D-pad and press the center button to play.</dd>
+
+      <dt>Can I play only part of a song?</dt>
+      <dd>Long-press the play button to choose the whole song, the current track only, or just the part on screen.</dd>
+
+      <dt>Can I enter chords?</dt>
+      <dd>Each track plays one note at a time. Put chord notes on separate tracks (up to 16 tracks).</dd>
+
+      <dt>Can I use my songs in other apps?</dt>
+      <dd>Use "Export MIDI" in the menu to save a MIDI file (.mid).</dd>
+
+      <dt>Some notes disappeared when I imported a MIDI file.</dt>
+      <dd>To keep one note per track, only the highest of any overlapping notes is kept.</dd>
+
+      <dt>Where are my songs saved?</dt>
+      <dd>Only on your device. Deleting the app deletes your songs, so export any you want to keep as MIDI files.</dd>
+    </dl>
+  </section>
+</main>
+</body>
+</html>
